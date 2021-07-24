@@ -23,7 +23,17 @@ sp_dict= {
   "Pipistrelle de l'est": [2,2,3,2,2,2,2,5,3,0],
   "Chauve-souris nordique": [2,2,3,2,2,2,2,5,3,0],
   "Chauve-souris brune": [2,2,4,2,2,2,2,5,3,0],
-  "Bourdon à tache rousse": [4,4,0,4,0,0,2,5,5,5]
+  "Bourdon à tache rousse": [4,4,0,4,0,0,2,5,5,5],
+  "Tortue géographique":[5,0,0,4,3,5,5,3,1,0],
+  "Chevalier cuivré":[5,1,0,0,0,3,5,4,5,0],
+  "Carmantine d'Amérique":[1,0,0,0,1,3,3,1,1,0],
+  "Chevalier de rivière":[0,1,0,0,5,5,5,0,5,3],
+  "Méné d'herbe":[0,1,0,0,5,5,5,3,5,5],
+  "Couleuvre tachetée":[5,3,0,5,1,5,0,2,0,0],
+  "Fouille-roche gris":[0,1,0,0,0,5,5,0,5,0],
+  "Martinet ramoneur":[3,0,0,0,1,1,4,0,0,0],
+  "Monarque":[5,0,0,0,0,0,0,5,5,5],
+  "Engoulement d'Amérique":[0.5,0.5,0,0.5,0,0.5,0,0.5,0,0]
 }
 
 ################################################################################
@@ -73,6 +83,7 @@ def write(**kwargs):
 
     st.plotly_chart(fig,use_container_width=True)
     st.write("L'impact de la menace considère la portée et la gravité de la menace. Les valeurs attribuées correspondent au déclin potentiel de la population ou de la superficie en fonction des menaces")
+    st.warning("Lorsque la source d'information ne permet pas d'avoir de réponse adéquate pour la catégorie, une valeur de zéro est assignée à cette menace.")
     
     st.subheader("Sources de l'information")
     if st.checkbox("Bourdon à tache rousse"):

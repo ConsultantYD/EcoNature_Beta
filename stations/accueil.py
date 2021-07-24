@@ -31,17 +31,38 @@ def write(**kwargs):
 
     st.image(os.path.join("stations","images","accueil.gif"))
     st.header("Utilisation de l'outil")
+
+    st.subheader("Gantt")
+    st.markdown("**_Demo_** Réaliser des diagrammes de Gantt à l'aide d'excel")
+
     st.subheader("Menaces")
     st.markdown("Permet de **_comparer et partager_** rapidement **les impacts des menaces** sur chacune des espèces ciblées par le client.")
+    st.success("Demo disponible dans la version préliminaire")
+
+    st.subheader("Littérature")
+    st.markdown("Synthétiser **_les informations sous forme de texte_** rapidement avec la **programmation neuro-linguistique**")
+    st.success("Partiellement disponible dans la version préliminaire")
+
     st.subheader("Lac de données")
     st.markdown("Rassembler l'ensemble des **_données disponibles pertinentes_**.")
+    st.success("Disponible dans la version préliminaire")
+
     st.subheader("Visualisation")
     st.markdown("Visualiser **_la localisation et le nombre d'observation des espèces sur carte_** afin de mieux interpréter leurs intéractions \
          avec l'écosystème de la Rivière des Mille Îles.")
+    st.success("Disponible dans la version préliminaire")
+
     st.subheader("Analyse")
-    st.markdown("Exécute automatiquement des **_analyses statistiques_** en fonction des jeux de données sélectionnés.")
-    st.subheader("Intelligence artificielle")
+    st.markdown("Exécuter des **_analyses statistiques_** en fonction des jeux de données sélectionnés.")
+    st.warning("Non disponible dans la version préliminaire")
+
+    st.subheader("IA - Analyse automatique")
     st.markdown("**Prédiction** et **analyse** par **_intelligence artificielle_** afin de faciliter la prise de décision.")
+    st.warning("Non disponible dans la version préliminaire")
+
+    st.subheader("IA - Vision par Ordinateur")
+    st.markdown("Interpréter des **données visuelles** par **_intelligence artificielle_**.")
+    st.warning("Non disponible dans la version préliminaire")
     #     BC = session_state.BC
     #     BC.synchronize()
 
