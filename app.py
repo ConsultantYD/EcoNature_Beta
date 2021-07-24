@@ -105,7 +105,7 @@ def main():
         #     "[Répertoire GitHub](https://github.com/YsaelDesage/OverOneThousand)"
         # )
         st.sidebar.info(
-            "Ceci est une version préliminaire d'essai. Toute utilisation commerciale ou redistribution est stricement interdite. \n\n Merci de transmettre vos questions et commentaires à ysael.desage@me.com ou à pscalabrini@hotmail.ca."
+            "Ceci est une version préliminaire d'essai. Toute utilisation commerciale ou redistribution est strictement interdite. \n\n Merci de transmettre vos questions et commentaires à ysael.desage@me.com ou à pscalabrini@hotmail.ca."
         )
         st.sidebar.title("Auteurs")
         st.sidebar.info(
