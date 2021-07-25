@@ -7,7 +7,7 @@ import os
 
 def write(data_dict,**kwargs):
 	st.title("Littérature")
-	st.info("Cette ressource n'est pas disponible dans la version d'essai.")
+	st.info("Cette ressource n'est que partiellement disponible dans la version d'essai.")
 
 	st.header("Résumé Automatique")
 	rawtext=st.text_area("Texte")
