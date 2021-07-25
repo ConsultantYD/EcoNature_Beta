@@ -112,7 +112,7 @@ def write(**kwargs):
         st.text("Source 5: https://www3.mffp.gouv.qc.ca/faune/especes/menacees/fiche.asp?noEsp=5")
 
     if st.checkbox("Dard de sable"):
-        dard_sable_1=Image.open("data/dard_sable.png")
+        dard_sable_1=Image.open("data/dard_sable_p1.png")
         st.image(dard_sable_1, caption='Menaces pour le dard de sable')
         st.text("Source 1: https://www.sararegistry.gc.ca/virtual_sara/files/plans/rs_dard_sable_esd_qc_0414_f.pdf")
         st.text("Source 2: https://mffp.gouv.qc.ca/documents/faune/plan_retablissement_dard-de-sable_2020-2030.pdf")
