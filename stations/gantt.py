@@ -7,6 +7,8 @@ def write(data_dict,**kwargs):
 
 	st.title(f"Gestion de Projet")
 	st.info("Cette ressource n'est que partiellement disponible dans la version d'essai.")
+	
+	st.header("Gantt")
 	uploaded_file = st.file_uploader('Choisissez un fichier')
 
 	if uploaded_file is not None:
