@@ -46,7 +46,7 @@ class NotAvailable():
 STATIONS = {
     "Accueil": station_accueil,
     # "Documentation": None,
-    "Gantt": station_gantt,
+    "Gestion de Projet": station_gantt,
     "Menaces": station_menaces,
     "Littérature": station_text_summarize,
     "Lac de Données": station_data_lake,
